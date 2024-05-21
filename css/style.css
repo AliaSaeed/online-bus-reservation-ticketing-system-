@@ -1,0 +1,561 @@
+/* Make the image fully responsive */
+*{ margin: 0; padding:0; box-sizing: border-box;}
+.carousel-inner img {
+    width: 100%;
+    height: 100vh;
+  }
+ 
+  /* heading in index style */
+  .heading{
+    text-align: center;
+    padding: .5rem 0;
+  }
+ 
+  .heading h1{
+   font-size: 2rem;
+   text-transform: uppercase;
+   color: var(--white);
+   text-shadow: white;
+  }
+  .heading span{
+    text-align: center;
+    padding: .1rem .5rem;
+    font-size: 3rem;
+    background: rgba(255, 165, 0, .2);
+    color: var(--orange);
+    border-radius: 1.5rem;
+}
+.heading span.space{
+    background:none;
+}
+ /* About page in index style */
+ .about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+margin-top: 2rem;
+ }
+ .about .image{
+    flex: 1 1 22rem; 
+   margin-top: 3rem;
+ }
+
+ .about .image img{
+    width: 93%;
+    margin-left: 3rem; 
+    
+ }
+ .about .content{
+    flex: 1 .5 10rem;
+    padding: .3rem;
+    
+ }
+ .about .content h1{
+  font-size: 2.5rem;
+  color: (--black);
+  align-items: center;
+
+ }
+.about .content p{
+  font-size: 1rem;
+  color: (--black);
+  padding: .10rem 0;
+  line-height: 1.1rem;  
+  padding-right: 4rem; 
+ }
+
+ /* client page in about page style 
+ #testimonial{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: poppins;
+   flex-direction: column;
+   width: 100%;
+ }
+ .testimonial-box-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 100%;
+ }
+ .testimonial-box{
+   width: 400px;
+   box-shadow: 1.5px 2px 25px rgba(0,0,0,.1);
+   background-color: #ffff;
+   padding: 15px;
+   margin: 13px;
+   cursor: pointer;
+
+ }
+ .profile-img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   overflow: hidden;
+   margin-right: 8px;
+ }
+ .profile-img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   object-position: center;
+ }
+ .profile{
+   display: flex;
+   align-items: center;
+
+ }
+ .name-user{
+   display: flex;
+   flex-direction: column;
+ }
+ .name-user h3{
+   color: #3d3d3d;
+   font-size: 1rem;
+   letter-spacing: 0.3px;
+}
+.reviews{
+   color: #f9d71c;
+}
+.box-top{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 15px;
+}
+.comment{
+font-size: 0.9rem;
+color: #4b4b4b;
+}
+.testimonial-box:hover{
+   transform: translateY(-8px);
+   transition: all ease 0.2s ;
+
+}*/
+.testimonials{
+padding: 25px 0;
+background: #f1f1f1;
+color: #434343;
+text-align: center;
+}
+.inner{
+   max-width: 1100px;
+   margin: auto;
+   overflow: hidden;
+   padding: 0 13px;
+
+}
+.border{
+width: 30px;
+height: 2px;
+background: #6ab06a;
+margin: 15px auto;
+
+}
+.row{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
+.col{
+flex: 20.33%;
+max-height:20.33%;
+box-sizing: border-box;
+padding: 13px;
+}
+.testimonial{
+background: #fff;
+padding: 20px;
+
+}
+.testimonial img{
+   width: 100%;
+   height: 100%;
+   border-radius: 100px;
+
+}
+.name{
+   font-size: 50px;
+   text-transform: uppercase;
+   margin: 10px 0;
+}
+.stars{
+   font-size: 1rem;
+   color: rgb(255, 165, 0);
+   margin-bottom: 10px;
+}
+
+
+
+/* packages page in index page style */
+ 
+ .packages .box-container  {
+display: flex;
+flex-wrap: wrap;
+gap: 1.5rem;
+margin-left: 3rem;
+margin-bottom: 5rem;
+  }
+
+ .packages .box-container .box{
+   flex: 1 .1 18rem;
+   border-radius: 1rem;
+   overflow: hidden;
+   box-shadow: 0 .5rem  .5rem rgba(0,0,0,.1);
+ }
+
+.packages .box-container .box img{
+      height: 12rem;
+      width: 100%;
+      object-fit: cover;
+  
+}
+.packages .box-container .box .content{
+      padding: .1rem ;
+
+     }
+.packages .box-container .box .content h5{
+       font-size: 1.5rem;
+       color: #333;
+
+     }
+     .packages .box-container .box .content h5 i{
+      font-size: 1.5rem;
+      color: var(--orange);
+
+    }
+    
+     .packages .box-container .box .content p{
+      font-size: 1rem;
+      color: #666;
+      padding: .2rem 0;
+    }
+
+    .packages .box-container .box .content .stars i{
+      font-size: 1rem;
+      color: rgb(255, 165, 0);
+   
+    }
+    .packages .box-container .box .content .price{
+      font-size: 1rem;
+      color: #333;
+ 
+    }
+    .packages .box-container .box .content .price span{
+      color: #666;
+      font-size: 1rem;
+      text-decoration: line-through;
+      
+    }
+    .packages .More{
+      text-align: center;
+      margin-top: 1.5rem;
+      color: rgb(98, 98, 223);
+    }
+   /* services style in index page style */
+
+   .services .box-container{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-top: 2rem;
+   }
+   .services .box-container .box{
+     flex: .5 .5 17rem;
+      border-radius: .5rem;
+      padding: .1rem;
+      text-align: center;
+      margin-right: 4rem;
+   }
+   .services .box-container .box i{
+      padding: .5rem;
+      font-size: 1.5rem;
+      color: orange;
+   }
+   .services .box-container .box h5{
+      font-size: 1.5rem;
+      color: #333;
+   }
+   .services .box-container .box p{
+      font-size: 1rem;
+      color: #666;
+      padding: .1rem 0;
+   }
+   .services .box-container .box:hover{
+      box-shadow: 0 .1rem 1rem rgba(0,0,0,.1);
+   }
+   
+   /* gallery  style in index page  */
+.gallery .box-container{
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 2rem;
+   margin-left: 4rem; 
+}
+.gallery .box-container .box{
+   overflow: hidden;
+   box-shadow: 1 1rem .5rem white !important;
+   border: .2rem solid #f6f3f3;
+   border-radius: 1rem;
+   flex: 1 20rem;
+   height: 15rem;
+   position: relative;
+   margin-right: 3rem;
+
+}
+.gallery .box-container .box img{
+   height: 90%;
+   width: 90%;
+   object-fit: cover;
+}
+.gallery .box-container .box .content{
+   position: absolute;
+   top: -100%; left: 0;
+   height: 90%;
+   width: 90%;
+   text-align: center;
+   background: rgba(0,0,0,.7);
+  
+ 
+}
+.gallery .box-container .box:hover .content{
+   top: 0%;
+}
+
+.gallery .box-container .box .content h5{
+   font-size: 1.2rem;
+   color: orange;
+}
+.gallery .box-container .box .content p{
+   font-size: 1rem;
+   color: rgb(253, 252, 249);
+}
+/* bttn style  */
+ .btn{
+   display: inline-block;
+   background: orange;
+   padding: .5rem 1rem;
+   margin-top: .5;
+   color: white;
+   font-size: 1rem;
+   cursor: pointer;
+   align-items: center;
+}
+.btn:hover{
+   background: rgba(0,0,0,.7);
+   color: orange;
+}
+
+/* contect page in index page */
+
+
+.contect-container{
+   margin-top: 2rem;
+   max-width: 500px;
+   margin: auto;
+   width: 50%;
+   align-items: center;
+   display: grid;
+   grid-template-columns: repeat(1, .5fr);
+  gap: .2em; 
+  background: rgb(100, 150, 200);
+  box-shadow: 0 0.5rem hsla(0, 0, 0 , 10%);
+  border-radius: 0.2rem;
+  overflow: hidden;
+  justify-content: center;
+}
+.form-container{
+   width: 100%;
+   padding: 7px;
+   flex-direction: column;
+   margin: auto;
+
+}
+.form-container h5{
+font-size: 1.5rem;
+font-weight: 180;
+margin-top: .5rem;
+color: blue;
+justify-content: center;
+}
+.contect-form{
+   display: grid;
+   row-gap: 1rem;
+   
+}
+.contect-form input, .contect-form textarea{
+   /* width: 500rem; */
+   border: none;
+   outline: none;
+   font-size: 1rem;
+   padding: 15px;
+   color: black;
+   border-radius: 0.2rem;
+   background: #e3e4f2;
+
+}
+.contect-form textarea{
+   resize: none;
+   height: 200px;
+}
+.contect-form .send{
+   border: none;
+   outline: none;
+   background: #00db;
+   font-size: 1rem;
+   font-weight: 400;
+   text-transform: uppercase;
+   cursor: pointer;
+}
+.contect-form .send:hover{
+   background: #00dbde;
+   transition: 0.2s all linear;
+}
+.map iframe{
+   width: 100%;
+   height: 60%;
+}
+   /* gallery  style in index page  */
+
+.review .review-slider .box{
+   border: 1px solid red;
+   background: #fff;
+   border-radius: .5rem;
+   text-align: center;
+   padding: 1rem .5rem;
+   outline-offset: -1.5rem;
+   outline: var(--outline);
+   box-shadow: var(--box-shadow);
+   transition: .2s linear;
+}
+.review .review-slider .box:hover{
+   box-shadow: 1px 1px 2px 2.5px var(--green);
+}
+.review .review-slider .box img{
+height: 10rem;
+width: 10rem;
+border-radius: 50%;
+}
+.review .review-slider .box h3{
+   padding-bottom: .5rem;
+   color: var(--black);
+   font-size: 2rem;
+}
+.review .review-slider .box .stars i{
+   color: var(--orange);
+   font-size: 1.3rem;
+}
+/* Footer style in index page style */
+
+.footer{
+      background: url(../images/foo.jpg) no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 70%;
+   }
+.footer .box-container{
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+      gap: 2.5rem;
+   }
+.footer .box-container .box h5{
+      color: rgb(240, 229, 229);
+      font-size: 2rem;
+      padding-bottom: 1.5rem;
+   }
+ .footer .box-container .box a {
+      color: rgb(196, 140, 224);
+      font-size: 1rem;
+      padding-bottom: .5rem;
+      display: block;
+      margin-left: 2rem;
+   }
+.footer .box-container .box a i{
+      color: rgb(224, 219, 224);
+      padding-right: .5rem;
+      transition: .1s linear;
+   }
+.footer .box-container .box a:hover i{
+      padding-right: 1rem;
+      
+   }
+.footer .credit{
+   text-align: center;
+   padding-top: 1rem;
+   margin-top: 2rem;
+   border-top: .1rem solid var(--white);
+   font-size: 1.5rem;
+   color: white;
+}
+.footer .credit span{
+   color: darkorchid;
+}
+
+
+.white-text{
+   color: white !important;
+}
+
+/* ///////////////////TICKET RESERVATION PAGE STYLE///////////*/
+/* Example styles for the ticket reservation form */
+body {
+   font-family: Arial, sans-serif;
+ }
+ 
+ h1 {
+   text-align: center;
+ }
+ 
+ form {
+   max-width: 400px;
+   margin: 0 auto;
+ }
+ 
+ label {
+   display: block;
+   margin-bottom: 10px;
+ }
+ 
+ input, button {
+   width: 100%;
+   padding: 10px;
+   margin-bottom: 15px;
+ }
+ 
+ button {
+   background-color: #d3dcd3;
+   color: rgb(255, 255, 255);
+   border: #000 !important; 
+   border-style: solid !important;
+   block-size: 41px !important;
+   margin-right: 5px !important;
+   cursor: pointer;
+ }
+ 
+ button:hover {
+   background-color: #45a049;
+ }
+  /* button in menu bar */
+  .login{
+   border: #000 !important; 
+   border-style: solid !important;
+   block-size: 41px !important;
+   margin-right: 5px !important;
+  }
+  .center{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+  }
+  .center-btn{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    /* background-color: green; */
+  }
